@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+
+}
+
+/********************************************************************************/
+
+nav {
+    display: flex;
+    width: 100%; 
+    margin: 0 auto;
+    justify-content: space-between;
+    position: absolute;
+    align-items:center;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+
+  nav .logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    /* font-size: 2rem; */
+  }
+
+  nav .navLinks {
+    flex: 2;
+  }
+  nav .navLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -5rem;
+  }
+
+  nav .navLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -5rem;
+  }
+  nav .navLinks .links {
+   
+    display: flex; /* Aligns items in a row */
+    justify-content: space-around; /* Distributes space evenly */
+    align-items: center; /* Vertically aligns items */
+    gap: 15px;
+  }
+  
+nav .navLinks .links a:hover {
+    color: rgb(123, 252, 123);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+nav .btn {
+    padding: 8px 20px;
+    color: #e5e5e5;
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    z-index: 2;
+  }
+  .appointment-loginbtn{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+  }
+  .appointment-loginbtn .appointment-btn{
+    background-color: black;
+    color: white;
+    /* border: 2px solid black; */
+    /* border-radius: 10px; */
+
+    padding: 15px;
+    opacity: 10px;
+  }
+  .appointment-loginbtn .appointment-btn:hover{
+    background-color: rgb(102, 194, 102);
+    color: black;
+    cursor: pointer;
+    
+  }
+  .appointment-loginbtn .loginBtn{
+    background-color: black;
+    color: white;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    padding: 15px;
+    opacity:1;
+    
+
+  }
+
+  .appointment-loginbtn .loginBtn:hover{
+    background-color: rgb(102, 194, 102);
+    color: black;
+
+  }
+
+  
+
+.hero{
+    background:  url('../images/bac2.jpg');
+    background-size: cover;
+    background-position:initial;
+    margin-top: 100px;
+}
+.hero .banner .p-first{
+    margin-right: 65rem;
+    margin-bottom: -70px;
+}
+.hero .banner .p-first .title{
+    margin-top: -25px;
+}
+
+body{
+    margin: rem;
+}
+
+
+
